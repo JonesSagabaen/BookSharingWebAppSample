@@ -1,0 +1,220 @@
+
+a
+{
+    text-align: center;
+}
+
+/* necessary for iframe resizing in firefox */
+body, html
+{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+p.welcome
+{
+    position: absolute;
+    top: 95%;
+    left: 4%;
+}
+
+div.titletext
+{
+    text-align: center;
+    position: absolute;
+    left: 35%;
+    top: 5%;
+    width: 31%;
+    font-family: cursive;
+    font-size: 100%;
+    color: red;
+}
+
+img.titlePic
+{
+    float: left;
+    margin: 0px;
+    padding-top: 3%;
+    padding-right: 0px;
+}
+
+iframe.leftcol
+{
+    position: absolute;
+    top: 30%;
+    left: 0.5%;
+}
+
+div.leftcol
+{
+    text-align: center;
+    position: absolute;
+    left: 1.6%;
+    top: 35%;
+    width: 14%;
+    color: red;
+    font-family: cursive;
+    font-size: 100%;
+}
+
+iframe.rightcol
+{
+    text-align: center;
+    position: absolute;
+    left: 17.7%;
+    top: 30%;
+    height: 80%;
+}
+
+/* Select right collum forms and text */
+form.serach, h2.browseTitle, #regPage, #editUserInfo,#editPaymentInfo, #signinPage, #accountMgr
+{
+    text-align: left;
+    position: absolute;
+    width: 50%;
+    left: 48%;
+    top: 35%;
+}
+
+form.serach
+{
+   z-index: 2;
+}
+
+/* Homepage */
+div.homepage
+{
+    text-align: center;
+    position: absolute;
+    width: 50%;
+    left: 30%;
+    top: 35%;
+    font-size: 12pt;
+}
+
+div.paymentPlan1
+{
+    position: absolute;
+    width: 15%;
+    height: 50%;
+    left: 30%;
+    top: 55%;
+}
+
+img.plan1pic
+{
+    position: absolute;
+    left: 25%;
+    top: 30%;
+}
+
+div.paymentPlan2
+{
+    position: absolute;
+    width: 15%;
+    height: 50%;
+    left: 46%;
+    top: 55%;
+}
+
+img.plan2pic
+{
+    position: absolute;
+    left: 17%;
+    top: 25%;
+}
+
+div.paymentPlan3
+{
+    position: absolute;
+    width: 15%;
+    height: 50%;
+    left: 66%;
+    top: 55%;
+}
+
+img.plan3pic
+{
+    position: absolute;
+    left: 5%;
+    top: 17%;
+}
+
+p.pictext
+{
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    font-weight: bold;
+    font-size: 16pt;
+}
+/* end Homepage */
+
+#serachResults, #browse
+{
+    height: 80%;
+    width: 68%;
+    position: absolute;
+    top: 52%;
+    left: 20%;
+    padding: 1%;
+}
+
+/* Account manager page */
+#queue
+{
+    position: absolute;
+    top: 45%;
+    left: 65%;
+}
+
+#user
+{
+    position: absolute;
+    top: 45%;
+    left: 30%;
+}
+
+#payinfo
+{
+    position: absolute;
+    top: 85%;
+    left: 30%;
+}
+/* end account manager page */
+
+#editUserInfo
+{
+    position: absolute;
+    top: 45%;
+    left: 30%;
+}
+
+h1.red, h2.red, h2.browseTitle, p.red
+{
+    color: red;
+}
+
+p.inputerror
+{
+    text-align: center;
+    color: red;
+    display: none;
+}
+
+p.searchTitles, span.searchTitles
+{
+    font-weight: bold;
+}
+
+div.moreDetailsText
+{
+    position: absolute;
+    left: 35%;
+    top: 5%;
+    width: 31%;
+    font-family: cursive;
+    font-size: 90%;
+}
